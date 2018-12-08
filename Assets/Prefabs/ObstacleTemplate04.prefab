@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4696542928474472}
   - component: {fileID: 114252530568575276}
   m_Layer: 0
-  m_Name: ObstacleTemplate03
+  m_Name: ObstacleTemplate04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7237bce9dacbb5248a26392c22da86c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 1716756367242536, guid: b28caae810ca1d74ea5511e5fee617c7, type: 2}
+  obstacle: {fileID: 1716756367242536, guid: a009d5d2889fe43828ef6ee1f1adff23, type: 2}
 --- !u!114 &114252530568575276
 MonoBehaviour:
   m_ObjectHideFlags: 1
