@@ -29,4 +29,10 @@ public class LevelLoader : MonoBehaviour {
 			yield return null;
 		}
 	}
+
+		public void Quit()
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+	}
 }

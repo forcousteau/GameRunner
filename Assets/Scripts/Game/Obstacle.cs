@@ -14,10 +14,19 @@ public class Obstacle : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) {
+            try
+            {
+             FindObjectOfType<AudioManager>().Play("collide");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
+            finally{
             other.GetComponent<Player>().health--;
             other.GetComponent<Player>().camAnim.SetTrigger("shake");
             Instantiate(effect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            Destroy(gameObject);}
         }   
     }
 }

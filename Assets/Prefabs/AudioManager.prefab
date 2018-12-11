@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1741534736779002}
+  m_IsPrefabParent: 1
+--- !u!1 &1741534736779002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4262964259547598}
+  - component: {fileID: 114356064454895064}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4262964259547598
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741534736779002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 687.35736, y: 115.30086, z: -2.492591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114356064454895064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741534736779002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883137ce92fd34cab93d7734c4b2df9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: pressed
+    clip: {fileID: 8300000, guid: 70b01c9fb2d694ebc98f351a76862b1b, type: 3}
+    volume: 0.7
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+  - name: collide
+    clip: {fileID: 8300000, guid: 6527f5483ebb7437fbc37fcc58120313, type: 3}
+    volume: 0.7
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+  - name: ambience
+    clip: {fileID: 8300000, guid: 70b01c9fb2d694ebc98f351a76862b1b, type: 3}
+    volume: 0.7
+    pitch: 0.72
+    loop: 1
+    source: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: 645be785989e54dd29dcbeae6ec1fa42, type: 2}

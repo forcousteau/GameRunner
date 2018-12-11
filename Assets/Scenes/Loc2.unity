@@ -113,6 +113,151 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &694989
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 803274967}
+    m_Modifications:
+    - target: {fileID: 224609561350561198, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224609561350561198, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224981073408624252, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224981073408624252, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224981073408624252, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a96863adf148840778ae3716a1cf1b16, type: 2}
+  m_IsPrefabParent: 0
+--- !u!224 &694990 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224592516329195108, guid: a96863adf148840778ae3716a1cf1b16,
+    type: 2}
+  m_PrefabInternal: {fileID: 694989}
 --- !u!1 &34959831
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +553,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1032,6 +1177,7 @@ RectTransform:
   - {fileID: 1158324688}
   - {fileID: 2092656230}
   - {fileID: 147081155}
+  - {fileID: 694990}
   m_Father: {fileID: 186750232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1708,7 +1854,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1951,7 +2097,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
