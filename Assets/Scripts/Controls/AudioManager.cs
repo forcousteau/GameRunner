@@ -8,9 +8,9 @@ public class AudioManager : MonoBehaviour {
 	public Sound[] sounds;
 
 	public static AudioManager instance;
+
 	public AudioMixer audioMixer;
 
-	//public AudioMixer mixer;
 	void Start()
 	{
 		try
@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour {
 			Debug.Log("ambience missing");
 		}
 	}
-	// Use this for initialization
+
 	void Awake () {
 		if(instance == null)
 		{
@@ -59,8 +59,10 @@ public class AudioManager : MonoBehaviour {
 	public void SetVolume(float vol)
 	{
 		audioMixer.SetFloat("volume", vol);
-		foreach (Sound sound in sounds){
-			sound.source.volume = vol;}
+		foreach (Sound sound in sounds)
+		{
+			sound.source.volume = vol;
+		}
 		
 	}
 }

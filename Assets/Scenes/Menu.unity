@@ -1058,8 +1058,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 114356064454895064, guid: 07cb9cfea8baf44aca67c1c48b6fd692,
-        type: 2}
+      objectReference: {fileID: 986199614}
     - target: {fileID: 114570060956730246, guid: 0a1d436d47a5943f5aacb0cd543b7fbb,
         type: 2}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1540,6 +1539,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &986199614 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114356064454895064, guid: 07cb9cfea8baf44aca67c1c48b6fd692,
+    type: 2}
+  m_PrefabInternal: {fileID: 1767633305}
+  m_Script: {fileID: 11500000, guid: 883137ce92fd34cab93d7734c4b2df9f, type: 3}
 --- !u!1 &1019038733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,6 +1896,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114356064454895064, guid: 07cb9cfea8baf44aca67c1c48b6fd692,
+        type: 2}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c87dc540afa14efe9feadbab9b9c90f, type: 3}
+    - target: {fileID: 114356064454895064, guid: 07cb9cfea8baf44aca67c1c48b6fd692,
+        type: 2}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 69bcea6b9d5f04185b812f08a5a04b38, type: 3}
+    - target: {fileID: 114356064454895064, guid: 07cb9cfea8baf44aca67c1c48b6fd692,
+        type: 2}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 88eba8c96e2d6476c98386eda63c6db5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07cb9cfea8baf44aca67c1c48b6fd692, type: 2}
   m_IsPrefabParent: 0
