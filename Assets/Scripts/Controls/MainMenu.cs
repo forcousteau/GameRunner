@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+	public GameObject mainM;
+	public GameObject options;
 	public void PlayGame()
 	{
 		    try
@@ -16,6 +18,19 @@ public class MainMenu : MonoBehaviour {
                 
             }
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	}
+
+	public void OptionsPressed()
+	{
+			try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            { 
+            }
+			mainM.SetActive(false);
+			options.SetActive(true);
 	}
 
 	public void GuitGame()
