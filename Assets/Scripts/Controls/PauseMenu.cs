@@ -25,6 +25,14 @@ public class PauseMenu : MonoBehaviour {
 
 	public void Resume()
 	{
+          try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		pauseMenuUI.SetActive(false);
 		gameStatsUI.SetActive(true);
 		Time.timeScale = 1f;
@@ -33,6 +41,14 @@ public class PauseMenu : MonoBehaviour {
 
 	public void Pause()
 	{
+			try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		gameStatsUI.SetActive(false);
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
@@ -41,11 +57,27 @@ public class PauseMenu : MonoBehaviour {
 
 	public void LoadMenu()
 	{
+			try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		Time.timeScale = 1f;
 		SceneManager.LoadScene(1);
 	}
 	public void Quit()
 	{
+		    try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		Time.timeScale = 1f;
 		SceneManager.LoadScene(1);
 	}

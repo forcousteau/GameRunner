@@ -7,11 +7,27 @@ public class MainMenu : MonoBehaviour {
 
 	public void PlayGame()
 	{
+		    try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 
 	public void GuitGame()
 	{
+			 try
+            {
+             FindObjectOfType<AudioManager>().Play("pressed");   
+            }
+            catch (System.Exception)
+            {
+                
+            }
 		Debug.Log("Quit Game");
 		Application.Quit();
 	}
