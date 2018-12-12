@@ -16,6 +16,7 @@ public class AudioManager : MonoBehaviour {
 		try
 		{
 			Play("ambience");
+			Play("ambience-word");
 		}
 		catch (System.Exception)
 		{
